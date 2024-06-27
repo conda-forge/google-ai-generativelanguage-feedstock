@@ -1,5 +1,5 @@
 {% set name = "google-ai-generativelanguage" %}
-{% set version = "0.6.5" %}
+{% set version = "0.6.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-ai-generativelanguage-{{ version }}.tar.gz
-  sha256: c4089c277fa4e26722f76ab03ee3039f28be8bf1c9be282948b9583a154c6d79
+  sha256: 1739f035caeeeca5c28f887405eec8690f3372daf79fecf26454a97a4f1733a8
 
 build:
   noarch: python
