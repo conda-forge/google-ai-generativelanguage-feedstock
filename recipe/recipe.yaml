@@ -35,7 +35,9 @@ tests:
       imports:
         - google
       pip_check: true
-      python_version: ${{ python_min }}
+      python_version:
+        - ${{ python_min }}
+        - "*"
 
 about:
   summary: Google Ai Generativelanguage API client library
